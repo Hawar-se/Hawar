@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./works.scss";
 
+
 export default function Works() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
@@ -45,8 +46,10 @@ export default function Works() {
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
       >
+       
         {data.map((d) => (
           <div className="container">
+
             <div className="item">
               <div className="left">
                 <div className="leftContainer">

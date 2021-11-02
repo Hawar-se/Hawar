@@ -4,8 +4,8 @@ export default function expiriance() {
   const data = [
     {
       id: 1,
-      name: "Unicontrol",
-      title: "Frontend Developer",
+      name: "University College Lillebelt UCL",
+      title: "BA Web Development",
       img:
         "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       icon: "assets/twitter.png",
@@ -14,8 +14,8 @@ export default function expiriance() {
     },
     {
       id: 2,
-      name: "Intercare",
-      title: "Frontend Developer",
+      name: "Lillebælt Academy of Professional Higher education",
+      title: "Multimedia Design and Communication",
       img:
         "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       icon: "assets/youtube.png",
@@ -25,8 +25,8 @@ export default function expiriance() {
     },
     {
       id: 3,
-      name: "24 Hours",
-      title: "Graphical Designer",
+      name: "University of Sylamany, Iraq",
+      title: "Bachelor in Science and IT",
       img:
         "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       icon: "assets/linkedin.png",
@@ -36,7 +36,7 @@ export default function expiriance() {
   ];
   return (
     <div className="expiriance" id="expiriance">
-      <h1>Expiriance</h1>
+      <h1>Education</h1>
       <div className="container">
         {data.map((d) => (
           <div className={d.featured ? "card featured" : "card"}>
